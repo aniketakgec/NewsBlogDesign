@@ -169,8 +169,9 @@ img{
     
     .row{
        
-        height: 25vh;
+        height: 30vh;
         flex-direction: column;
+      
         align-items: center;
         justify-content: center;
     }
@@ -180,12 +181,12 @@ img{
     }
 
     .title{
-        top: 0;
+        top: 10px;
         padding-top: 10px;
         padding-bottom: 10px;
     }
     .subscribe{
-        top: 0;
+        top: 20px;
         left: 20px;
     }
     
@@ -210,10 +211,11 @@ img{
 }
 
 
-@media only screen and (max-width:375px)
+
+@media only screen and (min-width:280px) and (max-width:376px)
 {
     .row{
-        
+      
         height: 35vh;
         flex-direction: column;
         align-items: center;
@@ -229,11 +231,11 @@ img{
     }
 
     .title{
-        top: 0;
+        top: 10px;
     }
     .subscribe
     {
-        top:0;
+        top:20px;
         left: 20px;
     }
 
@@ -249,15 +251,60 @@ img{
     }
 }
 
-@media only screen and (min-width:768px)
+
+
+@media only screen and (min-width:768px) 
 {
     html,body{
+       
         min-width: 100%;
+        overflow-x: hidden;
         
     }
 
-    .blogDetails>div{
-        width: 75%;
-    }
+    
 }
 
+
+@media only screen and (min-width:601px) and (max-width:768px){
+    html,body{
+       
+        min-width: 100%;
+        overflow-x: hidden;
+        
+    }
+    
+}
+
+
+
+
+@media only screen and (max-width:695px){
+  
+
+    .row{
+       
+        height: 45vh;
+        flex-direction: column;
+       
+        align-items: center;
+        justify-content: center;
+    }
+
+    .category{
+        
+        top: -50px;
+        left:0;
+    }
+    .title{
+        top:-20px;
+    }
+    .subscribe{
+        top:10px;
+        left: 20px;
+    }
+    .blogDetails>div{
+        width: 85%;
+    }
+    
+}
