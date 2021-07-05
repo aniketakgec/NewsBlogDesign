@@ -1,0 +1,263 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+hr{
+    width: 90%;
+    background-color:#273852;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.nav{
+    background-color: #273852;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.newblog{
+    border: 2px solid red;
+    background:white;
+    height: 60%;
+    color: #273852;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 30px;
+    width: 200px;
+    text-transform: uppercase;
+}
+
+.newblog > p{
+   
+    background:white;
+    font-size: 13px;
+    width: 200px;
+    
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.row{
+
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.category{
+    position: relative;
+    top:30px;
+    left:40px;
+}
+label{
+    text-transform: uppercase;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+select{
+    width: 200px;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+.title{
+    color: #273852;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 52px;
+
+}
+
+.subscribe{
+    position: relative;
+    right: 40px;
+    top: 30px;
+    
+}
+.subscribe>input{
+    padding: 5px;
+}
+
+
+.subscribe>button{
+    padding: 7px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+
+img{
+    background:none;
+    height: 150px;
+    width: 13%;
+    background-color: gray;
+}
+.blogDetails{
+    margin-left: 30px;
+    width: 90%;
+}
+.blogDetails> div{
+    width: 1000px;
+    font-family: 'Handlee', cursive;
+}
+
+.blogDetails>h1{
+    font-size: 25px;
+    color:#273852;
+}
+.hr{
+   
+    height: 1px;
+    background-color: rgb(192, 192, 192);
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 15px;
+
+}
+
+.blogDetails> button{
+   border: none;
+   padding: 10px;
+   background-color: #d55f44;
+   color:white;
+   margin-top: 12px;
+}
+
+.blogRowSingle{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive design code*/
+
+
+
+@media only screen and (min-width:375px) and (max-width: 600px) {
+    
+    .row{
+       
+        height: 25vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .category{
+        top: 0;
+        left: 0;
+    }
+
+    .title{
+        top: 0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .subscribe{
+        top: 0;
+        left: 20px;
+    }
+    
+     
+    span{
+        display: block;
+    }
+
+    .blogRow{
+        margin-top: 30px;
+    }
+
+    hr{
+        margin-top: 30px;
+    }
+    img{
+        width: 20%;
+    }
+    .blogDetails> div{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width:375px)
+{
+    .row{
+        
+        height: 35vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    body,html{
+        min-width: 100%;
+        overflow-x: hidden;
+    }
+    .category{
+        top: 0;
+        left: 0;
+    }
+
+    .title{
+        top: 0;
+    }
+    .subscribe
+    {
+        top:0;
+        left: 20px;
+    }
+
+    img{
+        width: 25%;
+    }
+    .blogDetails>div
+    {
+        width: 85%;
+    }
+    span{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:768px)
+{
+    html,body{
+        min-width: 100%;
+        
+    }
+
+    .blogDetails>div{
+        width: 75%;
+    }
+}
+
