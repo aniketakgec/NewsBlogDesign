@@ -272,7 +272,7 @@ img{
 
     .row{
        
-        height: 55vh;
+        height: 45vh;
         flex-direction: column;
        
         align-items: center;
@@ -281,14 +281,14 @@ img{
 
     .category{
         
-        top: -50px;
+        top: 0px;
         left:0;
     }
     .title{
-        top:-20px;
+        top:10px;
     }
     .subscribe{
-        top:10px;
+        top:25px;
         left: 20px;
     }
     .blogDetails>div{
