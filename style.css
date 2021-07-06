@@ -2,8 +2,6 @@
     margin: 0px;
     padding: 0px;
 }
-
-
 hr{
     width: 90%;
     background-color:#273852;
@@ -13,7 +11,7 @@ hr{
 
 .nav{
     background-color: #273852;
-    height: 100px;
+    height: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,7 +20,7 @@ hr{
 .newblog{
     border: 2px solid red;
     background:white;
-    height: 60%;
+    height: 50%;
     color: #273852;
     font-weight: bold;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -82,7 +80,7 @@ select{
 
 .subscribe{
     position: relative;
-    right: 40px;
+    right: 38px;
     top: 30px;
     
 }
@@ -144,6 +142,18 @@ img{
 }
 
 
+
+
+.footer{
+    background-color: #273852;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 
 
@@ -263,7 +273,6 @@ img{
 
 
 
-
 @media only screen and (min-width:601px) and (max-width:768px){
     html,body{
        
@@ -293,10 +302,10 @@ img{
         left:0;
     }
     .title{
-        top:10px;
+        top:12px;
     }
     .subscribe{
-        top:25px;
+        top:27px;
         left: 20px;
     }
     .blogDetails>div{
