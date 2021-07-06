@@ -157,6 +157,10 @@ img{
 
 
 
+.blogRow{
+    margin-top: 50px;
+}
+
 
 
 
@@ -183,10 +187,10 @@ img{
     .title{
         top: 10px;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
     .subscribe{
-        top: 20px;
+        top: 25px;
         left: 20px;
     }
     
@@ -214,6 +218,7 @@ img{
 
 @media only screen and (min-width:280px) and (max-width:376px)
 {
+    
     .row{
       
         height: 35vh;
@@ -227,7 +232,10 @@ img{
     }
     .category{
         top: 0;
-        left: 0;
+        margin-right:30px;
+    }
+    hr{
+        margin-top: 30px;
     }
 
     .title{
@@ -237,7 +245,9 @@ img{
     {
         top:20px;
         left: 20px;
+        margin-right: 30px;
     }
+
 
     img{
         width: 25%;
@@ -249,6 +259,8 @@ img{
     span{
         display: block;
     }
+
+   
 }
 
 
@@ -265,7 +277,7 @@ img{
         width: 80%;
     }
     .subscribe{
-        top:29px;
+        top:28px;
     }
 
     
@@ -286,30 +298,37 @@ img{
 
 @media only screen and (max-width:695px){
   
+    hr{
+        position: relative;
+        top: 10px;
+    }
 
     .row{
        
-        height: 45vh;
+        height: 40vh;
         flex-direction: column;
        
         align-items: center;
         justify-content: center;
     }
-
+    
     .category{
         
         top: 0px;
+        
         left:0;
     }
     .title{
-        top:12px;
+        top:30%;
+        order: 2;
+        
     }
     .subscribe{
-        top:27px;
-        left: 20px;
+        top:24px;
+        left: 24px;
     }
     .blogDetails>div{
-        width: 85%;
+        width: 90%;
     }
     
 }
