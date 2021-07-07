@@ -204,10 +204,11 @@ img{
    
 }
 
-@media only screen and (min-width:375px) and (max-width: 768px) {
+@media only screen and (min-width:377px) and (max-width: 768px) {
     
     .row{
        
+        
         height: 30%;
         align-items: center;
         justify-content: center;
@@ -287,13 +288,28 @@ img{
 }
 
 
-
-@media only screen and (min-width:280px) and (max-width:376px)
+@media only screen and (min-width:280px) and (max-width:321px)
+{
+    .category{
+       margin-left: 20px;
+    }
+    .subscribe{
+        margin-left: 10px;
+    }
+    
+    .subscribe>input{
+        width: 19em;
+    }
+    .subscribe>button{
+        width: 20.8em;
+    }
+   
+}
+@media only screen and (min-width:320px) and (max-width:376px)
 {
     
     .row{
     
-      
         height:30%;
         flex-direction: column;
         align-items: center;
@@ -318,11 +334,15 @@ img{
         order: 2;
        
     }
+    
     .subscribe{
         top: 4em;
-        left: 11px;
+        left: 9px;
+        
     }
-
+    .subscribe>input{
+        padding: 10px;
+    }
 
     img{
         width: 50%;
@@ -375,13 +395,11 @@ img{
 
     .category{
         top: 10;
-        left: 0px;
-       
-       
-        
+        left: -13px;   
     }
+    
     select{
-        width: 20em;
+        width: 19em;
     }
 
     .title{
@@ -390,14 +408,14 @@ img{
        
     }
     .subscribe>input{
-        width: 18em;
+        width: 17em;
     }
     .subscribe{
         top: 4em;
-        left: px;
+        left: 0px;
     }
     .subscribe>button{
-        width: 19.8em;
+       width: 18.8em;
     }
 
 
